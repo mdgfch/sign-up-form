@@ -32,6 +32,7 @@ body {
     padding: 2rem;
     display: flex;
     align-items: center;
+    justify-content: center;
     position: relative;
     top: 19em;
 }
@@ -44,7 +45,7 @@ body {
     font-family: new-font, sans-serif;
     letter-spacing: 0.1em;
     font-size: 32px;
-    margin-left: 1em;
+    margin-left: 0.5em;
 }
 
 form {
