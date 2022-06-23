@@ -7,9 +7,8 @@ body {
     width: 35vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     text-align: center;
-    background-color: rgb(82, 60, 97);
+    background-image: url("background_image.jpeg"); 
 }
 
 .right-container {
@@ -29,12 +28,23 @@ body {
 }
 
 #herobox {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.4);
     padding: 2rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 19em;
+}
+#icon {
+    color: white;
 }
 
 #title {
     color: white;
+    font-family: new-font, sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 32px;
+    margin-left: 1em;
 }
 
 form {
@@ -65,8 +75,8 @@ input {
 }
 
 button {
-    color: rgb(237, 237, 237);
-    background-color: rgb(82, 60, 97);
+    color: rgb(255, 255, 255);
+    background-color: rgb(174, 123, 232);
     border-style: none;
     font-weight: 600;
     width: 170px;
@@ -99,10 +109,15 @@ input:focus {
 button:active {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
     transform: translate(3px, 3px);
-    background-color: rgb(62, 43, 75);
+    background-color: rgb(142, 99, 190);
 }
 
 input:invalid {
     border-color: red;
     background-color: rgba(255, 0, 0, 0.1);
+}
+
+@font-face {
+    font-family: new-font;
+    src: url(Potta_One/PottaOne-Regular.ttf)
 }
