@@ -41,7 +41,7 @@ form {
     background-color: white;
     padding: 2ch 4ch;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.1);
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     border: 1px solid rgb(243, 243, 243);
     color: rgb(80, 73, 86);
 }
@@ -59,7 +59,7 @@ input {
     width: 200px;
     border: 1px solid rgb(237, 237, 237);
     padding: 4px;
-    border-radius: 2px;
+    border-radius: 4px;
     margin-right: 4em;
     margin-top: 16px;
 }
@@ -75,12 +75,11 @@ button {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
     cursor: pointer;
     transition: transform 0.05s ease-out, box-shadow;
+    margin-top: 2em;
 
 }
 
-#createbtn {
-    margin-left: 6ch;
-}
+
 
 #login {
     margin-left: 4ch;
@@ -101,4 +100,9 @@ button:active {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
     transform: translate(3px, 3px);
     background-color: rgb(62, 43, 75);
+}
+
+input:invalid {
+    border-color: red;
+    background-color: rgba(255, 0, 0, 0.1);
 }
